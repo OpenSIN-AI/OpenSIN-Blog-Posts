@@ -6,6 +6,7 @@ Official blog posts and announcements for the OpenSIN ecosystem.
 
 | Post | Date | Tags |
 |------|------|------|
+| [OpenSIN ist keine Software mehr. Es ist eine digitale Belegschaft.](posts/063-opensin-digitale-belegschaft.md) | 2026-04-09 | opensin, software-3.0, neural-bus, bridge, medusa |
 | [Introducing OpenSIN](posts/001-introducing-opensin.md) | 2026-04-01 | announcement, ai, agents |
 
 ## Writing a Post
