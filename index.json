@@ -1,248 +1,266 @@
 [
   {
-    "file": "posts/063-opensin-digitale-belegschaft.md"
+    "file": "posts/001-introducing-opensin.md"
   },
   {
-    "file": "01-warum-andere-agenten-obsolet-sind.md"
+    "file": "posts/01-warum-andere-agenten-obsolet-sind.md"
   },
   {
-    "file": "02-upwork-2400-in-48h.md"
+    "file": "posts/02-upwork-2400-in-48h.md"
   },
   {
-    "file": "03-a2a-protokoll.md"
+    "file": "posts/03-a2a-protokoll.md"
   },
   {
-    "file": "04-mass-platform-auth.md"
+    "file": "posts/04-mass-platform-auth.md"
   },
   {
-    "file": "05-opensin-destroy-assistants.md"
+    "file": "posts/05-opensin-destroy-assistants.md"
   },
   {
-    "file": "06-messaging-platforms.md"
+    "file": "posts/06-messaging-platforms.md"
   },
   {
-    "file": "07-chrome-extension.md"
+    "file": "posts/07-chrome-extension.md"
   },
   {
-    "file": "08-what-openclaw-cant.md"
+    "file": "posts/08-what-openclaw-cant.md"
   },
   {
-    "file": "09-what-manus-cant.md"
+    "file": "posts/09-what-manus-cant.md"
   },
   {
-    "file": "10-keine-app-die-opensin-nicht-steuern-kann.md"
+    "file": "posts/10-keine-app-die-opensin-nicht-steuern-kann.md"
   },
   {
-    "file": "11-paperclip-vs-opensin.md"
+    "file": "posts/11-paperclip-vs-opensin.md"
   },
   {
-    "file": "12-qwen-3-6-free.md"
+    "file": "posts/12-qwen-3-6-free.md"
   },
   {
-    "file": "13-claude-opus-4-6-free.md"
+    "file": "posts/13-claude-opus-4-6-free.md"
   },
   {
-    "file": "14-gemini-3-1-pro-free.md"
+    "file": "posts/14-gemini-3-1-pro-free.md"
   },
   {
-    "file": "15-opensin-steuert-macos.md"
+    "file": "posts/15-opensin-steuert-macos.md"
   },
   {
-    "file": "16-gpt-5-4-free.md"
+    "file": "posts/16-gpt-5-4-free.md"
   },
   {
-    "file": "17-kairos-vscode-sidebar.md"
+    "file": "posts/17-kairos-vscode-sidebar.md"
   },
   {
-    "file": "17-notion-und-opensin.md"
+    "file": "posts/17-notion-und-opensin.md"
   },
   {
-    "file": "18-apple-notes-und-opensin.md"
+    "file": "posts/18-apple-notes-und-opensin.md"
   },
   {
-    "file": "19-linear-und-opensin.md"
+    "file": "posts/19-linear-und-opensin.md"
   },
   {
-    "file": "20-github-und-opensin.md"
+    "file": "posts/20-github-und-opensin.md"
   },
   {
-    "file": "21-google-docs-und-opensin.md"
+    "file": "posts/20-opensin-bridge-chrome-extension.md"
   },
   {
-    "file": "22-slack-und-opensin.md"
+    "file": "posts/21-google-docs-und-opensin.md"
   },
   {
-    "file": "23-free-vm-google-colab-opensin.md"
+    "file": "posts/21-opensin-bridge-vs-claude-code.md"
   },
   {
-    "file": "23-google-sheets-und-opensin.md"
+    "file": "posts/22-slack-und-opensin.md"
   },
   {
-    "file": "24-hermes-vs-opensin.md"
+    "file": "posts/23-free-vm-google-colab-opensin.md"
   },
   {
-    "file": "24-opensin-vscode-extension-v010.md"
+    "file": "posts/23-google-sheets-und-opensin.md"
   },
   {
-    "file": "25-gemini-3-flash-live-speech-to-speech.md"
+    "file": "posts/24-hermes-vs-opensin.md"
   },
   {
-    "file": "26-acp-vs-mcp.md"
+    "file": "posts/24-opensin-vscode-extension-v010.md"
   },
   {
-    "file": "27-100-agents-zero-humans.md"
+    "file": "posts/25-gemini-3-flash-live-speech-to-speech.md"
   },
   {
-    "file": "28-opensin-vs-cursor.md"
+    "file": "posts/26-acp-vs-mcp.md"
   },
   {
-    "file": "29-truth-about-ai-coding-agents.md"
+    "file": "posts/27-100-agents-zero-humans.md"
   },
   {
-    "file": "30-tui-gui-aui.md"
+    "file": "posts/28-opensin-vs-cursor.md"
   },
   {
-    "file": "31-fleet-monitoring-deep-dive.md"
+    "file": "posts/29-truth-about-ai-coding-agents.md"
   },
   {
-    "file": "32-security-scanner.md"
+    "file": "posts/30-tui-gui-aui.md"
   },
   {
-    "file": "33-design-system.md"
+    "file": "posts/31-fleet-monitoring-deep-dive.md"
   },
   {
-    "file": "34-discord-bot.md"
+    "file": "posts/32-security-scanner.md"
   },
   {
-    "file": "35-endgame.md"
+    "file": "posts/33-design-system.md"
   },
   {
-    "file": "36-gap-analysis-world-class.md"
+    "file": "posts/34-discord-bot.md"
   },
   {
-    "file": "37-opensin-vs-competition.md"
+    "file": "posts/35-endgame.md"
   },
   {
-    "file": "38-real-competition.md"
+    "file": "posts/36-gap-analysis-world-class.md"
   },
   {
-    "file": "39-the-real-battle.md"
+    "file": "posts/37-opensin-vs-competition.md"
   },
   {
-    "file": "40-opensin-37-channels.md"
+    "file": "posts/38-real-competition.md"
   },
   {
-    "file": "40-opensin-vs-codex.md"
+    "file": "posts/39-the-real-battle.md"
   },
   {
-    "file": "40-opensin-vs-devin.md"
+    "file": "posts/40-opensin-37-channels.md"
   },
   {
-    "file": "41-opensin-vs-jules.md"
+    "file": "posts/40-opensin-vs-codex.md"
   },
   {
-    "file": "41-opensin-vs-replit.md"
+    "file": "posts/40-opensin-vs-devin.md"
   },
   {
-    "file": "41-sin-chatroom-vs-openclaw.md"
+    "file": "posts/41-opensin-vs-jules.md"
   },
   {
-    "file": "42-opensin-vs-augment.md"
+    "file": "posts/41-opensin-vs-replit.md"
   },
   {
-    "file": "42-opensin-vs-lovable.md"
+    "file": "posts/41-sin-chatroom-vs-openclaw.md"
   },
   {
-    "file": "43-opensin-vs-bolt.md"
+    "file": "posts/42-opensin-vs-augment.md"
   },
   {
-    "file": "43-opensin-vs-kilo.md"
+    "file": "posts/42-opensin-vs-lovable.md"
   },
   {
-    "file": "44-opensin-vs-claude-code.md"
+    "file": "posts/43-opensin-vs-bolt.md"
   },
   {
-    "file": "44-opensin-vs-morph.md"
+    "file": "posts/43-opensin-vs-kilo.md"
   },
   {
-    "file": "45-opensin-vs-copilot.md"
+    "file": "posts/44-opensin-vs-claude-code.md"
   },
   {
-    "file": "45-opensin-vs-devin-2.md"
+    "file": "posts/44-opensin-vs-morph.md"
   },
   {
-    "file": "46-opensin-vs-chatgpt.md"
+    "file": "posts/45-opensin-vs-copilot.md"
   },
   {
-    "file": "46-opensin-vs-copilot-multi.md"
+    "file": "posts/45-opensin-vs-devin-2.md"
   },
   {
-    "file": "47-opensin-vs-autogen.md"
+    "file": "posts/46-opensin-vs-chatgpt.md"
   },
   {
-    "file": "47-opensin-vs-windsurf-google.md"
+    "file": "posts/46-opensin-vs-copilot-multi.md"
   },
   {
-    "file": "48-opensin-2026-ultimativer-vergleich.md"
+    "file": "posts/47-opensin-vs-autogen.md"
   },
   {
-    "file": "48-opensin-vs-crewai.md"
+    "file": "posts/47-opensin-vs-windsurf-google.md"
   },
   {
-    "file": "49-opensin-vs-cursor-3.md"
+    "file": "posts/48-opensin-2026-ultimativer-vergleich.md"
   },
   {
-    "file": "49-opensin-vs-langgraph.md"
+    "file": "posts/48-opensin-vs-crewai.md"
   },
   {
-    "file": "50-omma-ai-vs-opensin.md"
+    "file": "posts/49-opensin-vs-cursor-3.md"
   },
   {
-    "file": "50-opensin-vs-claude-code-april.md"
+    "file": "posts/49-opensin-vs-langgraph.md"
   },
   {
-    "file": "51-opensin-april-feature-drop.md"
+    "file": "posts/50-omma-ai-vs-opensin.md"
   },
   {
-    "file": "51-opensin-v210-launch.md"
+    "file": "posts/50-opensin-vs-claude-code-april.md"
   },
   {
-    "file": "52-launch-recap-was-wir-gebaut-haben.md"
+    "file": "posts/51-opensin-april-feature-drop.md"
   },
   {
-    "file": "52-opensin-hat-alles-kombiniert.md"
+    "file": "posts/51-opensin-v210-launch.md"
   },
   {
-    "file": "53-opensin-n8n-vs-github-actions.md"
+    "file": "posts/52-launch-recap-was-wir-gebaut-haben.md"
   },
   {
-    "file": "53-we-launch.md"
+    "file": "posts/52-opensin-hat-alles-kombiniert.md"
   },
   {
-    "file": "54-competitive-intelligence-april-2026.md"
+    "file": "posts/53-opensin-n8n-vs-github-actions.md"
   },
   {
-    "file": "54-opensin-launch-announcement.md"
+    "file": "posts/53-we-launch.md"
   },
   {
-    "file": "55-310-packages-was-sich-geaendert-hat.md"
+    "file": "posts/54-competitive-intelligence-april-2026.md"
   },
   {
-    "file": "55-opensin-vs-competition-april-2026.md"
+    "file": "posts/54-opensin-launch-announcement.md"
   },
   {
-    "file": "56-opensin-ultimate-status-april-2026.md"
+    "file": "posts/55-310-packages-was-sich-geaendert-hat.md"
   },
   {
-    "file": "57-opensin-98-out-of-100.md"
+    "file": "posts/55-opensin-vs-competition-april-2026.md"
   },
   {
-    "file": "58-opensin-april-2026-complete-status.md"
+    "file": "posts/56-opensin-ultimate-status-april-2026.md"
   },
   {
-    "file": "59-self-healing-fleet-system.md"
+    "file": "posts/57-opensin-98-out-of-100.md"
   },
   {
-    "file": "59-sin-platform-auth-zero-human-intervention.md"
+    "file": "posts/58-opensin-april-2026-complete-status.md"
+  },
+  {
+    "file": "posts/59-self-healing-fleet-system.md"
+  },
+  {
+    "file": "posts/59-sin-platform-auth-zero-human-intervention.md"
+  },
+  {
+    "file": "posts/60-opensin-a2a-9-agenten.md"
+  },
+  {
+    "file": "posts/61-opensin-brand-media-pipeline.md"
+  },
+  {
+    "file": "posts/62-passive-income-zeroclick-a2a-prolific-worker.md"
+  },
+  {
+    "file": "posts/63-opensin-digitale-belegschaft.md"
   }
 ]
