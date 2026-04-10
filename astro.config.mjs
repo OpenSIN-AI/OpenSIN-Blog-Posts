@@ -1,0 +1,16 @@
+import { defineConfig } from 'astro/config';
+import tailwindcss from '@tailwindcss/vite';
+import react from '@astrojs/react';
+import mdx from '@astrojs/mdx';
+import cloudflare from '@astrojs/cloudflare';
+
+export default defineConfig({
+  vite: {
+    plugins: [tailwindcss()]
+  },
+  integrations: [react(), mdx()],
+  output: 'static',
+  adapter: cloudflare({
+    imageService: 'passthrough'
+  })
+});
