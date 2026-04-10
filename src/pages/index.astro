@@ -1,0 +1,63 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { ArrowRight, Calendar } from 'lucide-react';
+
+const posts = await getCollection('posts');
+const sortedPosts = posts.sort((a, b) => {
+  const aId = parseInt(a.id.split('-')[0]);
+  const bId = parseInt(b.id.split('-')[0]);
+  return bId - aId;
+});
+---
+
+<Layout title="Blog">
+	<main>
+		<section class="pt-36 pb-20 px-6 relative overflow-hidden">
+			<div class="absolute inset-0 pointer-events-none">
+				<div class="absolute inset-0 bg-[linear-gradient(to_right,#ffffff05_1px,transparent_1px),linear-gradient(to_bottom,#ffffff05_1px,transparent_1px)] bg-[size:64px_64px] [mask-image:radial-gradient(ellipse_80%_60%_at_50%_0%,#000_70%,transparent_100%)]"></div>
+				<div class="absolute inset-0 bg-gradient-to-b from-transparent via-black/80 to-black"></div>
+			</div>
+
+			<div class="max-w-4xl mx-auto text-center relative z-10">
+				<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-zinc-400 text-xs mb-8">
+					<span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+					OpenSIN Insights
+				</div>
+				<h1 class="text-5xl md:text-6xl font-semibold tracking-tighter text-zinc-50 mb-6 leading-[1.1]">
+					Der Blog der <span class="text-zinc-500">Zukunft.</span>
+				</h1>
+				<p class="text-lg text-zinc-400 max-w-2xl mx-auto leading-relaxed">
+					News, Vergleiche und Deep Dives in die Welt der autonomen Agenten-Netzwerke.
+				</p>
+			</div>
+		</section>
+
+		<section class="pb-32 px-6">
+			<div class="max-w-6xl mx-auto">
+				<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+					{sortedPosts.map((post) => {
+						const title = post.data.title || post.id.split('-').slice(1).join(' ');
+						
+						return (
+							<a href={`/blog/${post.id}`} class="group p-6 rounded-xl bg-white/[0.02] border border-white/5 hover:border-emerald-500/20 transition-all hover:bg-white/[0.04]">
+								<div class="flex items-center gap-4 text-xs text-zinc-500 mb-4">
+									<div class="flex items-center gap-1.5">
+										<Calendar className="w-3.5 h-3.5" />
+										<span>{post.data.date || "April 2026"}</span>
+									</div>
+								</div>
+								<h3 class="text-lg font-medium mb-3 text-zinc-100 group-hover:text-emerald-400 transition-colors line-clamp-2">
+									{title}
+								</h3>
+								<div class="flex items-center text-emerald-500 text-xs font-medium group-hover:gap-2 transition-all mt-auto">
+									Read more <ArrowRight className="w-3.5 h-3.5 ml-1" />
+								</div>
+							</a>
+						);
+					})}
+				</div>
+			</div>
+		</section>
+	</main>
+</Layout>
