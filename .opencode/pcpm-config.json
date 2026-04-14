@@ -5,7 +5,7 @@
     "onFailure": "/Users/jeremy/dev/Biz-SIN-Blog-Posts/.opencode/hooks/pcpm-after-run.sh"
   },
   "pcpm": {
-    "brainRepoPath": "/Users/jeremy/dev/Biz-SIN-Blog-Posts",
+    "brainRepoPath": "/Users/jeremy/dev/global-brain",
     "projectId": "Biz-SIN-Blog-Posts",
     "goalId": "default-goal",
     "goalDescription": "Continue development",
