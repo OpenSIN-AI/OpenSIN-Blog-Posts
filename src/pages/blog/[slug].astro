@@ -1,0 +1,67 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection, render } from 'astro:content';
+import { ArrowRight, Calendar, User } from 'lucide-react';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  return posts.map(post => ({
+    params: { slug: post.id },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const title = post.data.title || post.id.split('-').slice(1).join(' ');
+---
+
+<Layout title={title}>
+	<div class="pt-32 pb-20 px-6 max-w-3xl mx-auto">
+		<a href="/" class="inline-flex items-center text-emerald-400 hover:text-emerald-300 mb-8 transition-colors">
+			<ArrowRight className="w-4 h-4 mr-2 rotate-180" />
+			Back to blog
+		</a>
+
+		<div class="flex flex-wrap items-center gap-6 text-sm text-zinc-400 mb-6">
+			<div class="flex items-center gap-2">
+				<Calendar className="w-4 h-4" />
+				{post.data.date || "April 2026"}
+			</div>
+			<div class="flex items-center gap-2">
+				<User className="w-4 h-4" />
+				OpenSIN Team
+			</div>
+		</div>
+
+		<h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-8 text-zinc-100 leading-tight">
+			{title}
+		</h1>
+		
+		<div class="prose prose-invert prose-emerald max-w-none text-zinc-300 leading-relaxed text-lg">
+			<Content />
+		</div>
+	</div>
+</Layout>
+
+<style is:global>
+	.prose p {
+		margin-bottom: 1.5rem;
+	}
+	.prose h1, .prose h2, .prose h3 {
+		color: #f4f4f5;
+		font-weight: 600;
+		margin-top: 2.5rem;
+		margin-bottom: 1.25rem;
+		letter-spacing: -0.025em;
+	}
+	.prose h2 { font-size: 1.5rem; }
+	.prose ul {
+		list-style-type: disc;
+		padding-left: 1.5rem;
+		margin-bottom: 1.5rem;
+	}
+	.prose li {
+		margin-bottom: 0.5rem;
+	}
+</style>
